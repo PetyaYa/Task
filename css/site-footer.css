@@ -1,0 +1,17 @@
+.footer { width: 60%; margin: 0 auto; padding-top: 3em; text-align: center; }
+.footer p { font-size: 11px; }
+.footer .copyright { font-size: 15px; color: #D1CECD; padding: 1em; }
+
+.info { display: flex; padding: 0.7em 0 1em 2.2em; margin: 0 auto; }
+.info ul { list-style: none; text-align: right; }
+.info li { display: inline-block; }
+.info a { display: block; text-decoration: none; color: #D1CECD; padding: 0 1em 1em 1em; font-size: 15px; }
+.info a:hover { color: grey; font-weight: bold; }
+
+.pay ul, .delivery ul, .social ul { margin: 1em; padding: 0; list-style: none; }
+.pay li, .delivery li, .social li { display: inline-block; }
+.pay a, .delivery a, .social a { display: block; text-decoration: none; padding: 0 0.5em 0.5em 0.5em; font-size: 15px; }
+
+.pay { padding-bottom: 1em; }
+
+/*# sourceMappingURL=site-footer.css.map */

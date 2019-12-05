@@ -1,0 +1,70 @@
+.footer {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 3em;
+    text-align: center;
+
+    p {
+        font-size: 11px;
+    }
+
+    .copyright {
+        font-size: 15px;
+        color: #D1CECD;
+        padding: 1em;
+    }
+}
+
+.info {
+    display: flex;
+    padding: 0.7em 0 1em 2.2em;
+    margin: 0 auto;
+
+    ul {
+        list-style: none;
+        text-align: right;
+      }
+    
+    li { 
+        display: inline-block; 
+      }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: #D1CECD;
+        padding: 0 1em 1em 1em;
+        font-size: 15px;
+      }
+
+    a:hover {
+        color: grey;
+        font-weight: bold;
+    }
+}
+
+.pay,
+.delivery,
+.social {
+
+    ul {
+        margin: 1em;
+        padding: 0;
+        list-style: none;
+    }
+    
+    li { 
+          display: inline-block; 
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        padding: 0 0.5em 0.5em 0.5em;
+        font-size: 15px;
+    }
+}
+
+.pay {
+    padding-bottom: 1em;
+}

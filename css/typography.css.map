@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAK,GACD,IAAI,EAAE,sCAAsC,EAC5C,KAAK,EAAE,IAAI,EACX,UAAU,EAAE,MAAM;AAElB,2BACW,GACP,WAAW,EAAE,IAAI",
+"sources": ["../sass/typography.scss"],
+"names": [],
+"file": "typography.css"
+}

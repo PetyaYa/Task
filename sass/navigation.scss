@@ -1,0 +1,66 @@
+header {
+    box-shadow: 0 8px 6px -6px #E5E5E5;
+    height: 4em;
+    position: relative;
+    color: #0B0A0B;
+}
+
+.site-nav {
+    @include site;
+  
+    .heading {
+      font-size: 2.2em;
+      font-weight: bold;
+      margin: 0;
+      position: absolute;               
+      top: 50%;                         
+      transform: translate(0, -50%);
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: right;
+    }
+  
+    li { 
+      display: inline-block; 
+    }
+  
+    a {
+      display: block;
+      text-decoration: none;
+      color: #333;
+      padding: 1.2em 0.5em 1.2em 0.5em;
+    }
+
+    .hovered {
+      border-bottom: 4px solid #23B21F;
+    }
+    .hover:hover {
+      border-bottom: 4px solid #23B21F;
+    }
+
+    button {
+      padding: 0.3em 2.4em 0.3em 2.4em;
+      margin-left: 1em;
+      border-radius: 25px;
+      border: 2px solid #23B21F;
+      background: white;
+      color: #23B21F;
+    }
+
+    button:hover {
+      color: white;
+      background: #23B21F;
+    }
+    
+    .hvr-grow {
+    transition-duration: 0.1s;
+    }
+
+    .hvr-grow:hover {
+    transform: scale(1.1);
+  }
+}
